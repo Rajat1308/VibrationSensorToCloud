@@ -1,0 +1,1 @@
+mosquitto_pub -h a2ldw2be3wuc34-ats.iot.ap-south-1.amazonaws.com -p 8883 -t Sensor1 -m 'Hello' -q 1 -i PippiPappa --cafile "AmazonRootCA1.pem" --cert a48a63222f-certificate.pem.crt --key a48a63222f-private.pem.key --keyform pem -d

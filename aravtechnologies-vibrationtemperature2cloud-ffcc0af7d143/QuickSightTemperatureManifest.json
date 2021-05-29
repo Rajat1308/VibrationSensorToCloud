@@ -1,0 +1,20 @@
+
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://destination-sensor-data-kinesis/data/"
+            ]
+        },
+        {
+            "URIPrefixes": [
+                "s3://destination-sensor-data-kinesis/data/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "containsHeader": "false"
+    }
+}
+

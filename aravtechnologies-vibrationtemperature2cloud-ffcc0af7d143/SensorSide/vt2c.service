@@ -1,0 +1,11 @@
+[Unit]
+Description=Vibration and Temperature to Cloud
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/home/pi/vibrationtemperature2cloud/SensorSide/Python/main.py
+
+[Install]
+WantedBy=multi-user.target
